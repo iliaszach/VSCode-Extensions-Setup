@@ -1,5 +1,5 @@
 # VSCode-Extensions-Setup
-A set of instructions to set up the visual studio code extentions, using only the command line interface.
+A set of instructions to set up the **Visual Studio Code extentions**, using only the command line interface.
 
 > ### You only need to do this once, because these extensions will be installed to your Visual Studio Code permantly, until you unistall them
 
