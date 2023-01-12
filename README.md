@@ -7,11 +7,13 @@ A set of instructions to set up the visual studio code extentions, using only th
 
 *echo johnpapa.angular-essentials johnpapa.Angular2 Angular.ng-template	formulahendry.auto-rename-tag esbenp.prettier-vscode eamodio.gitlens bond.better-comments> extensions.list*
 
+**Alternatively, you can use the extensions.list file in this repository, which already includes the suggested extensions.**
+
 ### Step 2: Install the extentions via command line interface, with the following command
 
 *for /f "delims=" %i in (extensions.list) do code --install-extension %i*
 
-**Alternative, If you want to use PowerShell for this operation, you can use the following commad:**
+**Alternatively, if you want to use PowerShell for this operation, you can use the following commad:**
 
 *foreach($line in get-content extensions.list) {code --install-extension $($line)}*
 
